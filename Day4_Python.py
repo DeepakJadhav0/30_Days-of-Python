@@ -89,3 +89,22 @@ print(sentence1.index('because'))
 
 #24 Use rindex to find the position of the last occurrence of the word because in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
 print(sentence1  .rindex('because'))
+
+# ------------------------- PROJECT ------------------------------
+# Write a Python program that calculates how much each person should pay when a group of people decides to split a bill and leave a tip. The program should:
+
+# Prompt the user to enter the total bill amount.
+# Prompt the user to enter the percentage of tip they would like to give (10, 20, or 30).
+# Prompt the user to enter the number of people among whom the bill will be split.
+# Calculate the total tip amount based on the percentage provided.
+# Calculate how much each person should pay by dividing the total tip amount by the number of people.
+
+
+print("Welcome To Tip Calculator ")
+total_bill = int(input("Enter Total Bill amount:"))
+per = int(input("Enter The Percentage of tip from bill like 10,20 or 30 :"))
+no_people = int(input("Enter The Number of People bill to be spilt :"))
+
+total_tip = total_bill * per / 100
+tip = total_tip / no_people
+print(f"Total bill Each Should Pay is :{tip}")
