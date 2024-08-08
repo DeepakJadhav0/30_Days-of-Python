@@ -185,3 +185,25 @@ insert_index = full_stack.index("Redux") + 1
 full_stack.insert(insert_index,"Python")
 full_stack.insert(insert_index + 1,"Sql")
 print(full_stack)
+
+#------------------------------------------------------------------- EXERCISE 2
+
+#1 The following is a list of 10 students ages:
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+
+# Sort the list and find the min and max age
+sort_ages = sorted(ages)
+print(f"max :{sort_ages[-1]}")
+print("Min :",sort_ages[0])
+
+# Add the min age and the max age again to the list
+
+# Find the median age (one middle item or two middle items divided by two)
+median_age = len(ages) // 2
+# Find the average age (sum of all items divided by their number )
+avg_ages = sum(ages) // len(ages)
+print(avg_ages)
+# Find the range of the ages (max minus min)
+range_ages = max(ages) - min(ages)
+print(range_ages)
+# Compare the value of (min - average) and (max - average), use abs() method
