@@ -1,1 +1,1 @@
-print(fruits.index("mango"))
+print(is_Estonia)
