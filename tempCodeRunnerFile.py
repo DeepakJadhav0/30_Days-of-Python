@@ -1,1 +1,1 @@
-print(is_Estonia)
+skills

@@ -1,4 +1,34 @@
 # --------------------------- STRINGS
+# Creating a String
+str1 = "Iten_name"
+
+# String Concatenation - + operator is used to concatention
+str2 = "object_name"
+str3 = str1 + str2
+print(str3)
+
+# Escape Sequences in Strings
+# \n is used for new line
+# \t is used for add tabs
+# \\ adds Backslash
+
+print("This is A Escape Sequal \n")
+print("This is another escape \t sequal")
+print("this is a blackslash \\")
+
+# Python Strings as Sequences of Characters - unpacking
+language = "Python"
+a,b,c,d,e,f = language
+print(a)
+print(b)
+print(c)
+
+# Accessing Characters in Strings by Index - accesed using index string_name[index]
+print(language[1])
+
+# Slicing Python Strings - string slicing has also same process string_name[strat:end:skip]
+print(language[0:3])
+
 # #1 Concatenate the string 'Thirty', 'Days', 'Of', 'Python' to a single string, 'Thirty Days Of Python'.
 str1 = "Thirty "
 str2 = "Days "
