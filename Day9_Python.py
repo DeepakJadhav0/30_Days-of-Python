@@ -51,76 +51,76 @@ if a > 10:
 
 # ------------------------------------------ EXERCISE 1
 
-# #1 Get user input using input(“Enter your age: ”). If user is 18 or older, give feedback: You are old enough to drive. If below 18 give feedback to wait for the missing amount of years. Output:
-# age = int(input("Enter Your Age :"))
-# if age > 18:
-#     print("You are Old enough to drive")
-# else:
-#     print(f"You still have to wait {18 - age} years")
+#1 Get user input using input(“Enter your age: ”). If user is 18 or older, give feedback: You are old enough to drive. If below 18 give feedback to wait for the missing amount of years. Output:
+age = int(input("Enter Your Age :"))
+if age > 18:
+    print("You are Old enough to drive")
+else:
+    print(f"You still have to wait {18 - age} years")
 
 # 2 Compare the values of my_age and your_age using if … else. Who is older (me or you)? Use input(“Enter your age: ”) to get the age as input. You can use a nested condition to print 'year' for 1 year difference in age, 'years' for bigger differences, and a custom text if my_age = your_age. Output:
-# my_age = 22
-# your_age = int(input("Enter Your Age :"))
-# age_diff = my_age - your_age
-# if my_age > your_age:
+my_age = 22
+your_age = int(input("Enter Your Age :"))
+age_diff = my_age - your_age
+if my_age > your_age:
 
-#     print(f" I am {my_age - your_age} years older than You")
+    print(f" I am {my_age - your_age} years older than You")
 
-# #3 Get two numbers from the user using input prompt. If a is greater than b return a is greater than b, if a is less b return a is smaller than b, else a is equal to b. Output:
-# a = int(input("Enter a :"))
-# b = int(input("Enter b :"))
+#3 Get two numbers from the user using input prompt. If a is greater than b return a is greater than b, if a is less b return a is smaller than b, else a is equal to b. Output:
+a = int(input("Enter a :"))
+b = int(input("Enter b :"))
 
-# if a > b:
-#     print("a is greater than b")
-# elif a == b:
-#     print('a nd b are equal')
-# else:
-#     print("b is greater than a")
+if a > b:
+    print("a is greater than b")
+elif a == b:
+    print('a nd b are equal')
+else:
+    print("b is greater than a")
 
 # ------------------------------------- EXERCISE 2
 
 #1 Write a code which gives grade to students according to theirs scores:
 
-# marks = int(input("Enter Your score :"))
-# if marks >= 80:
-#     print("A Grade")
-# elif marks >= 70:
-#     print("B Grade")
-# elif marks >= 60:
-#     print("C Grade")
-# elif marks >= 50:
-#     print("D Grade")
-# elif marks <= 50:
-#     print("F Grade")
-# else:
-#     print("invalid inputn")
+marks = int(input("Enter Your score :"))
+if marks >= 80:
+    print("A Grade")
+elif marks >= 70:
+    print("B Grade")
+elif marks >= 60:
+    print("C Grade")
+elif marks >= 50:
+    print("D Grade")
+elif marks <= 50:
+    print("F Grade")
+else:
+    print("invalid inputn")
 
 #2 Check if the season is Autumn, Winter, Spring or Summer. If the user input is: September, October or November, the season is Autumn. December, January or February, the season is Winter. March, April or May, the season is Spring June, July or August, the season is Summer
 
-# month = input("Enter Month :")
-# if month == 'September' or month == 'October' or month == 'November':
-#     print('Season is Autumn')
-# elif month == 'December' or month == 'January' or month == 'February':
-#     print("Season is Winter")
-# elif month == 'March' or month == 'April' or month == 'May':
-#     print("Season is Spring")
-# elif month == 'June' or month == 'July' or month == 'August':
-#     print("Season is Summer")
-# else:
-#     print("invalid input")
+month = input("Enter Month :")
+if month == 'September' or month == 'October' or month == 'November':
+    print('Season is Autumn')
+elif month == 'December' or month == 'January' or month == 'February':
+    print("Season is Winter")
+elif month == 'March' or month == 'April' or month == 'May':
+    print("Season is Spring")
+elif month == 'June' or month == 'July' or month == 'August':
+    print("Season is Summer")
+else:
+    print("invalid input")
 
 #3 The following list contains some fruits:
 # If a fruit doesn't exist in the list add the fruit to the list and print the modified list. If the fruit exists print('That fruit already exist in the list')
 
-# fruits = ['banana', 'orange', 'mango', 'lemon']
-# in_list = input("Enter Fruit :")
-# if in_list in fruits:
-#     print('That fruit is alreasy exists in list')
-#     print(fruits)
-# else:
-#     fruits.append(in_list)
-#     print("successfully add in list")
-#     print(fruits)
+fruits = ['banana', 'orange', 'mango', 'lemon']
+in_list = input("Enter Fruit :")
+if in_list in fruits:
+    print('That fruit is alreasy exists in list')
+    print(fruits)
+else:
+    fruits.append(in_list)
+    print("successfully add in list")
+    print(fruits)
 
 
 # --------------------------------- EXERCISE 3
