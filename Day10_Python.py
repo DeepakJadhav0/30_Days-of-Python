@@ -1,71 +1,71 @@
-# # ----------------------LOOPS - 1. While 2.For
-# # While Loop - until condition is False
-# # while condition:
-# #     code
+# ----------------------LOOPS - 1. While 2.For
+# While Loop - until condition is False
+# while condition:
+#     code
 
-# a = 0
-# while a < 5:
-#     print("Hellow world")
-#     a += 1
+a = 0
+while a < 5:
+    print("Hellow world")
+    a += 1
 
-# # while condition:
-# #     code
-# # else:
-# #     code 
-
-# b = 0
-# while b < 5:
-#     print("yes!")
-#     b += 1
+# while condition:
+#     code
 # else:
-#     print("Last time")
+#     code 
 
-# # Break and Continue - Part 1 - Break and coutinue is used 
-# # break is used if we want to stop the loop
+b = 0
+while b < 5:
+    print("yes!")
+    b += 1
+else:
+    print("Last time")
 
-# # while condition:
-# #     code
-# #     if condition:
-# #         break
+# Break and Continue - Part 1 - Break and coutinue is used 
+# break is used if we want to stop the loop
 
-# c = 0
-# while c < 5:
-#     print(c)
-#     c += 1
-#     if c == 3:
+# while condition:
+#     code
+#     if condition:
 #         break
 
-# # continue is used to skip the and continue
+c = 0
+while c < 5:
+    print(c)
+    c += 1
+    if c == 3:
+        break
 
-# # while condition:
-# #     code
-# #     if condition:
-# #         continue
+# continue is used to skip the and continue
 
-# d = 0
-# while d < 5:
-#     if d == 2:
-#         d += 1
+# while condition:
+#     code
+#     if condition:
 #         continue
-#     print(d)
-#     d += 1
 
-# # For Loop -  for is used 
-# # for condition: till the condition is true loops repeats
-# #     code
+d = 0
+while d < 5:
+    if d == 2:
+        d += 1
+        continue
+    print(d)
+    d += 1
 
-# # for loops with list
-# num = [1,2,3,4,5,6]
-# for number in num:
-#     print(number)
+# For Loop -  for is used 
+# for condition: till the condition is true loops repeats
+#     code
 
-# # for loop with string
-# language = "Python"
-# for letter in language:
-#     print(letter)
+# for loops with list
+num = [1,2,3,4,5,6]
+for number in num:
+    print(number)
 
-# for i in range(len(language)):
-#     print(language[i])
+# for loop with string
+language = "Python"
+for letter in language:
+    print(letter)
+
+for i in range(len(language)):
+    print(language[i])
 
 
 # ------------------------------------ EXERCISE 1
