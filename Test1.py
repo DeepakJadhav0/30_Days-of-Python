@@ -86,47 +86,110 @@ for i in range(1,6):
 # for i in tuples1:
 #     print(i)
 # Write a program that finds the union of two sets.
-set1 = {3,4,5,2,5,2}
-set2 = {1,6,4,3,8,1}
-set1.union(set2)
-print(set1)
+# set1 = {3,4,5,2,5,2}
+# set2 = {1,6,4,3,8,1}
+# set1.union(set2)
+# print(set1)
 # Write a program that takes input from the user for keys and values, creates a dictionary, and prints it.
-dict2 = {
-    'name':'Deepak',
-    'last_name':'Jadhav',
-    'city':'Gadhinglaj'
-}
-dict2['village'] = 'Hasurchampu'
-print(dict2)
+# dict2 = {
+#     'name':'Deepak',
+#     'last_name':'Jadhav',
+#     'city':'Gadhinglaj'
+# }
+# dict2['village'] = 'Hasurchampu'
+# print(dict2)
 # Write a program that checks if a number is a prime number using conditional statements.
-num3 = int(input("Enter Numnber :"))
+# num3 = int(input("Enter Numnber :"))
 
-if num3 <= 1:
-    print(f"{num3} is Not a Prime Number")
-else:
-    is_prime = True
-    for i in range(2,num3):
-        if num3 % i == 0:
-            is_prime = False
+# if num3 <= 1:
+#     print(f"{num3} is Not a Prime Number")
+# else:
+#     is_prime = True
+#     for i in range(2,num3):
+#         if num3 % i == 0:
+#             is_prime = False
     
-if is_prime:
-    print("prime")
-else:
-    print("not Prime")
+# if is_prime:
+#     print("prime")
+# else:
+#     print("not Prime")
 # Write a program that uses a while loop to print the first 10 numbers in reverse order (from 10 to 1).
-num4 = 10
-while num4 > 0:
-    print(num4,end=" ")
-    num4 -= 1
-
+# num4 = 10
+# while num4 > 0:
+#     print(num4,end=" ")
+#     num4 -= 1
 #-------------------------------------- Hard Questions
 # Write a program that takes a user's birth year and calculates their current age.
+# birth_year = int(input("Birth Year :"))
+# print("It has Been ",(2024 - birth_year))
 # Write a program that checks if a given string is a palindrome (reads the same forward and backward).
+# str3 = input("Enter text:")
+# if str3 == str3[::-1]:
+#     print("Is palindrone")
+# else:
+#     print("Not a palindrome")
 # Write a program that finds the largest number among three given numbers using logical operators.
+# num1,num2,num3 = input("ENter").split()
+
+# if num1 > num2:
+#     if num1 > num3:
+#         print(f"{num1} is Greater")
+# elif num3 > num2:
+#     print(f"{num3} is Greater")
+# else:
+#     print(f"{num2} is Greater")
 # Write a program that takes a sentence from the user and prints each word on a new line.
+# str3 = input("Enter Sentence :")
+# print(str3)
+# for i in str3:
+#     print(i)
 # Write a program that removes all occurrences of a specific element from a list.
+# elements = input("enter element :").split()
+# elements_to_remove = input("Enter element to remove:")
+# while elements_to_remove in elements:
+#     elements.remove(elements_to_remove)
+
+# print(f'Updated list :{elements}')
 # Write a program that concatenates two tuples and then slices the concatenated tuple.
+# tuple2 = (2,3,4,2,4,3,3)
+# tuple3 = (6,3,4,2,4,6,6,6)
+
+# ext_tuple = tuple2 + tuple3
+# print(ext_tuple)
+# print(ext_tuple[7:-1])
 # Write a program that creates two sets and checks if they have any common elements.
+# set2 = set(input("Enter set1:"))
+# set3 = set(input("ENter set3"))
+
+# print(set2.intersection(set3))
 # Write a program that stores students' names and their scores in a dictionary, then calculates the class average.
+# score = {
+#     'Deepak':'230',
+#     'Sushant':'320',
+#     'Rohan':'201',
+#     'Vikas':'222',
+#     'Omkar':'233'
+# }
+# total = 0
+
+# for i in score.values():
+#     total += int(i)
+
+# print("average is :",(total//(len(score))))
+
 # Write a program that checks if a number is even or odd using both a for loop and an if-else statement.
+# N = int(input("Number :"))
+
+# if N % 2 == 0:
+#     print("Even")
+# elif N == 0:
+#     print("nor")
+# else:
+#     print("odd")
 # Write a program that prints the first n Fibonacci numbers, where n is provided by the user.
+N = int(input("Enter number :"))
+total = 1
+for i in range(1,N+1):
+   total *= i
+
+print(total)
