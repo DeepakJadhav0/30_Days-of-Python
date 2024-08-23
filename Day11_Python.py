@@ -278,11 +278,22 @@ import statistics
 # print(is_unique(lst))
     
 #3 Write a function which checks if all the items of the list are of the same data type.
-def same_datatype(data):
-    for i in range(len(data)):
-        if type(data[0]) != type(data[i]):
-            return False
-    return True
+# def same_datatype(data):
+#     for i in range(len(data)):
+#         if type(data[0]) != type(data[i]):
+#             return False
+#     return True
     
-lst =[1,3,2,3,4,5,3,4,2]
-print(same_datatype(lst))
+# lst =[1,3,2,3,4,5,3,4,2]
+# print(same_datatype(lst))
+
+#4 Write a function which check if provided variable is a valid python variable
+# def is_valid_variable(var_name):
+#     # Use Python's built-in identifier check
+#     return var_name.isidentifier()
+
+# # Example usage:
+# print(is_valid_variable("valid_name"))  # Output: True
+# print(is_valid_variable("2invalid_name"))  # Output: False
+# print(is_valid_variable("invalid-name"))  # Output: False
+ 
