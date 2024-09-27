@@ -107,14 +107,46 @@
 #     s_new = mutate_string(s, int(i), c)
 #     print(s_new)
 
-def mutate_string(string, position, character):
-    lst_string = list(string)
-    lst_string[position] = character
-    new_str =''.join(lst_string)
-    return 
+# def mutate_string(string, position, character):
+#     lst_string = list(string)
+#     lst_string[position] = character
+#     new_str = ''.join(lst_string)
+#     return 
 
-if __name__ == '__main__':
-    s = input()
-    i, c = input().split()
-    s_new = mutate_string(s, int(i), c)
-    print(s_new)
+# if __name__ == '__main__':
+#     s = input()
+#     i, c = input().split()
+#     s_new = mutate_string(s, int(i), c)
+#     print(s_new)
+
+print("WEl COME TO KBC")
+money = 0
+continu = True
+while continu:
+    print("Here is your first question for 10000:")
+    print("What is Capital of India ?")
+    print("A.mumba B.delhi C.nagpur D.Pune")
+    ans = input("Enter your Option you selected :")
+    if ans == "B":
+        print("Congrulations You have won 10000")
+        money = 10000
+        print(f"You bakance is {money}")
+    else:
+        print("Booo! Try again")
+        continu = False
+    print("Would you like to countineu Y/N?")
+    co = input()
+    if co == 'Y':
+        print("here is ypur second question for 25000 :")
+        print("who is known as father of indai ?")
+        print("A.M Ghandi B.s bose D.n Modi C.j Nehru")
+        ans = input("Enter Your Option you've selected :")
+        if ans == 'A':
+            print('yesss you have won 25000')
+            money = 25000
+            print(f"Balance = {money}")
+        else:
+            print("boooo ! Wrong Answer Try again !")
+            continu = False
+    else:
+        continu = False

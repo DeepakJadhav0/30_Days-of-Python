@@ -56,8 +56,8 @@ print(tuple_list)
 #4 Flatten the following list to a new list:
 
 countries = [[('Finland', 'Helsinki')], [('Sweden', 'Stockholm')], [('Norway', 'Oslo')]]
-# result = [[country.upper(), country[:3].upper(), capital.upper()] for [[country, capital]] in countries]
-# print(result)
+result = [[country.upper(), country[:3].upper(), capital.upper()] for [[country, capital]] in countries]
+print(result)
 
 #5 Change the following list to a list of dictionaries:
 # output:
@@ -65,8 +65,8 @@ countries = [[('Finland', 'Helsinki')], [('Sweden', 'Stockholm')], [('Norway', '
 # {'country': 'SWEDEN', 'city': 'STOCKHOLM'},
 # {'country': 'NORWAY', 'city': 'OSLO'}]
 
-# new_result = [{"country":country.upper(),"city":city.upper() }for[[country,city]] in countries]
-# print(new_result)
+new_result = [{"country":country.upper(),"city":city.upper() }for[[country,city]] in countries]
+print(new_result)
 
 #6 Change the following list of lists to a list of concatenated strings:
 
